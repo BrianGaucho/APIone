@@ -877,3 +877,15 @@ let age = devClass.map((deve) =>{
 years.textContent = age
 
 gandhi.append(years)
+
+
+console.log(devClass);
+
+
+let img = document.createElement("img");
+
+img.src = "Squirrel.jpg";
+
+let src = document.getElementById("myImg");
+
+src.appendChild(img);
